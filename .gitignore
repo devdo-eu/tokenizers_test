@@ -11,5 +11,4 @@ build/
 huggingface_cache/
 corpus.json
 results_detailed.csv
-results.md
 grafika.png
