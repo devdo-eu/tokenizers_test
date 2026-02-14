@@ -168,7 +168,7 @@ def main() -> None:
     )
 
     fig.text(
-        0.50, 0.96, "Narzut tokenizacji: polski vs angielski",
+        0.50, 0.96, "Narzut tokenizacji",
         ha="center", va="center", fontsize=24, fontweight="bold",
         color=TEXT_COLOR, fontfamily="sans-serif"
     )
@@ -185,7 +185,7 @@ def main() -> None:
     )
     draw_table(
         fig.add_subplot(gs[1]),
-        "Znormalizowany narzut tokenizacji vs angielski (%) - tokens/char",
+        "Znormalizowany narzut tokenizacji vs angielski (%) - tokeny/znak",
         data["normalized"]
     )
 
