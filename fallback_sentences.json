@@ -1,0 +1,38 @@
+{
+  "everyday": {
+    "EN": "I went to the store yesterday to buy some bread and milk.",
+    "PL": "Wczoraj poszedłem do sklepu, żeby kupić chleb i mleko.",
+    "DE": "Ich bin gestern in den Laden gegangen, um Brot und Milch zu kaufen.",
+    "AR": "ذهبت إلى المتجر أمس لشراء بعض الخبز والحليب.",
+    "HY": "Երեկ ես գնացի խանութ հաց և կաթ գնելու համար:",
+    "JA": "昨日、パンと牛乳を買いに店に行きました。",
+    "ZH": "我昨天去商店买了一些面包和牛奶。"
+  },
+  "technical": {
+    "EN": "The transformer model uses self-attention mechanisms to process input sequences in parallel.",
+    "PL": "Model transformerowy wykorzystuje mechanizmy samoatencji do równoległego przetwarzania sekwencji wejściowych.",
+    "DE": "Das Transformer-Modell verwendet Selbstaufmerksamkeitsmechanismen zur parallelen Verarbeitung von Eingabesequenzen.",
+    "AR": "يستخدم نموذج المحولات آليات الانتباه الذاتي لمعالجة تسلسلات الإدخال بشكل متوازٍ.",
+    "HY": "Transformer մոդելը օգտագործում է ինքնաուշադրության մեխանիզմները մուտքային հաջորդականությունները զուգահեռաբար մշակելու համար:",
+    "JA": "トランスフォーマーモデルは、自己注意メカニズムを使用して入力シーケンスを並列に処理します。",
+    "ZH": "Transformer模型使用自注意力机制来并行处理输入序列。"
+  },
+  "complex": {
+    "EN": "Despite having been warned about the unpredictable weather, she nevertheless decided to embark on the treacherous mountain expedition.",
+    "PL": "Pomimo tego, że została ostrzeżona o nieprzewidywalnej pogodzie, mimo wszystko zdecydowała się wyruszyć na niebezpieczną wyprawę górską.",
+    "DE": "Obwohl sie vor dem unvorhersehbaren Wetter gewarnt worden war, entschied sie sich dennoch, die gefährliche Bergexpedition anzutreten.",
+    "AR": "على الرغم من تحذيرها بشأن الطقس غير المتوقع، قررت مع ذلك الشروع في رحلة الجبل الغادرة.",
+    "HY": "Չնայած անկանխատեսելի եղանակի մասին նախազգուշացված լինելով, նա այնուամենայնիվ որոշեց մեկնել վտանգավոր լեռնային արշավանքը:",
+    "JA": "予測不能な天候について警告されていたにもかかわらず、彼女はそれでも危険な山岳遠征に乗り出すことを決意しました。",
+    "ZH": "尽管已被警告天气变幻莫测，她仍然决定踏上这次危险的登山探险。"
+  },
+  "paragraph": {
+    "EN": "Artificial intelligence is transforming how we work and communicate. Large language models can now generate text, translate languages, and answer complex questions. However, these systems still face significant challenges with reasoning, factual accuracy, and bias.",
+    "PL": "Sztuczna inteligencja zmienia sposób, w jaki pracujemy i komunikujemy się. Duże modele językowe potrafią teraz generować tekst, tłumaczyć języki i odpowiadać na złożone pytania. Jednak systemy te wciąż borykają się ze znaczącymi wyzwaniami w zakresie rozumowania, dokładności faktograficznej i stronniczości.",
+    "DE": "Künstliche Intelligenz verändert die Art und Weise, wie wir arbeiten und kommunizieren. Große Sprachmodelle können jetzt Texte generieren, Sprachen übersetzen und komplexe Fragen beantworten. Diese Systeme stehen jedoch noch vor erheblichen Herausforderungen bei Schlussfolgerungen, Faktentreue und Voreingenommenheit.",
+    "AR": "يُحدث الذكاء الاصطناعي تحولاً في طريقة عملنا وتواصلنا. يمكن لنماذج اللغة الكبيرة الآن توليد النصوص وترجمة اللغات والإجابة على الأسئلة المعقدة. ومع ذلك، لا تزال هذه الأنظمة تواجه تحديات كبيرة في الاستدلال والدقة الواقعية والتحيز.",
+    "HY": "Արհեստական բանականությունը փոխում է մեր աշխատանքի և հաղորդակցման եղանակը: Մեծ լեզվական մոդելներն այժմ կարող են ստեղծել տեքստ, թարգմանել լեզուներ և պատասխանել բարդ հարցերի: Սակայն, այս համակարգերը դեռ բախվում են մեծ մարտահրավերների տրամաբանության, փաստացիական ճշտության և կողմնակալության հարցերում:",
+    "JA": "人工知能は私たちの働き方やコミュニケーションの方法を変革しています。大規模言語モデルは今やテキストの生成、言語の翻訳、複雑な質問への回答が可能です。しかし、これらのシステムは推論、事実の正確性、バイアスにおいて依然として大きな課題に直面しています。",
+    "ZH": "人工智能正在改变我们的工作和沟通方式。大型语言模型现在可以生成文本、翻译语言并回答复杂问题。然而，这些系统在推理、事实准确性和偏见方面仍面临重大挑战。"
+  }
+}

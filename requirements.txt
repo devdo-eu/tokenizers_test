@@ -1,0 +1,9 @@
+tiktoken
+transformers
+torch
+wikipedia-api
+deep-translator
+nltk
+matplotlib
+seaborn
+python-dotenv

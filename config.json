@@ -1,0 +1,107 @@
+{
+  "languages": {
+    "codes": ["EN", "PL", "DE", "AR", "HY", "JA", "ZH"],
+    "names": {
+      "EN": "English",
+      "PL": "Polish",
+      "DE": "German",
+      "AR": "Arabic",
+      "HY": "Armenian",
+      "JA": "Japanese",
+      "ZH": "Chinese"
+    }
+  },
+  "tokenizers": [
+    {
+      "name": "tiktoken (GPT-4)",
+      "library": "tiktoken",
+      "model_id": "cl100k_base"
+    },
+    {
+      "name": "APT4 (Bielik v3)",
+      "library": "transformers",
+      "model_id": "speakleash/Bielik-4.5B-v3"
+    },
+    {
+      "name": "TinyLlama (Llama 2)",
+      "library": "transformers",
+      "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+    },
+    {
+      "name": "Qwen 2.5",
+      "library": "transformers",
+      "model_id": "Qwen/Qwen2.5-7B"
+    },
+    {
+      "name": "multilingual-e5-large",
+      "library": "transformers",
+      "model_id": "intfloat/multilingual-e5-large"
+    }
+  ],
+  "corpus_fetcher": {
+    "seed": 42,
+    "sentences_per_article": [34, 33, 33],
+    "min_sentence_length": 30,
+    "max_sentence_length": 300,
+    "articles": [
+      {
+        "title": "Sztuczna inteligencja",
+        "domain": "technologia",
+        "url": "https://pl.wikipedia.org/wiki/Sztuczna_inteligencja"
+      },
+      {
+        "title": "Fotosynteza",
+        "domain": "nauka",
+        "url": "https://pl.wikipedia.org/wiki/Fotosynteza"
+      },
+      {
+        "title": "Bitwa pod Grunwaldem",
+        "domain": "historia",
+        "url": "https://pl.wikipedia.org/wiki/Bitwa_pod_Grunwaldem"
+      }
+    ],
+    "target_languages": {
+      "en": "EN",
+      "de": "DE",
+      "ar": "AR",
+      "hy": "HY",
+      "ja": "JA",
+      "zh-CN": "ZH"
+    }
+  },
+  "chart": {
+    "table_headers": [
+      "tiktoken\n(GPT-4)",
+      "APT4\n(Bielik v3)",
+      "TinyLlama\n(Llama 2)",
+      "Qwen 2.5",
+      "e5-large\n(XLM-R)"
+    ],
+    "row_labels": ["PL", "DE", "AR", "HY", "JA", "ZH"],
+    "row_names": ["polski", "niemiecki", "arabski", "ormiański", "japoński", "chiński"],
+    "colors": {
+      "background": "#0f1117",
+      "panel_background": "#181b25",
+      "text_primary": "#e8eaed",
+      "text_secondary": "#9aa0a6",
+      "grid": "#2a2d3a",
+      "accent_green": "#34d399",
+      "accent_red": "#f87171",
+      "accent_orange": "#fb923c",
+      "accent_yellow": "#fbbf24"
+    },
+    "color_thresholds": [
+      {"threshold": 0, "text": "#34d399", "background": "#34d39925"},
+      {"threshold": 50, "text": "#fbbf24", "background": "#fbbf2418"},
+      {"threshold": 150, "text": "#fb923c", "background": "#fb923c20"},
+      {"threshold": 300, "text": "#f87171", "background": "#f8717120"},
+      {"threshold": null, "text": "#ef4444", "background": "#ef444425"}
+    ],
+    "figure": {
+      "width": 10.8,
+      "height": 13.5,
+      "dpi": 100,
+      "save_dpi": 150
+    }
+  }
+}
